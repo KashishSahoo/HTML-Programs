@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Infomation Form</h1>
+<form>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <br>
+        <label for="n">Name:</label>
+        <input type="text" name="n" id="n" placeholder="Enter Name...">
+        <br>
+        <br>
+    
+        <label for="e">Email:</label>
+        <input type="email" name="e" id="e" placeholder="Enter Email...">
+        <br>
+        <br>
+    
+        <label for="p">Phone:</label>
+        <input type="tel" name="p" id="p" placeholder="Enter Phone Number...">
+        <br>
+        <br>
+        <label for="datepicker">Date Of Birth:</label>
+        <input type="date"  id="datepicker">
+        <br>
+        <br>
+        Gender :
+    
+        <label for="b1">Male:</label>
+        <input type="radio" name="Gender" id="b1">
+    
+        <label for="b2">Female:</label>
+        <input type="radio" name="Gender" id="b2">
+    
+        <label for="b3">Other:</label>
+        <input type="radio" name="Gender" id="b3">
+        <br>
+        <br>
+
+    </fieldset>
+
+    <fieldset>
+        <!-- alt+shift+down arrow -->
+        <legend>Address</legend>
+        <br>
+        <label for="s">Street:</label>
+        <input type="text" name="s" id="s" placeholder="Enter Street Name">
+        <br>
+        <br>
+        <label for="c">City:</label>
+        <input type="text" name="c" id="c"placeholder="Enter City Name">
+        <br>
+        <br>
+        <label for="st">State:</label>
+        <input type="text" name="st" id="st"placeholder="Enter State Name">
+        <br>
+        <br>
+        <label for="p">Pin Code::</label>
+        <input type="text" name="p" id="p"placeholder="Enter Pin Code">
+        <br>
+        <br>
+
+        <label for="Place">Choose Your Country:</label>
+            <select name="Places" id="Place">
+    
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="Australia">Australia</option>
+                <option value="Canada">Canada</option>
+                <option value="Paris">Paris</option>
+                <option value="Nepal">Nepal</option>
+            </select>
+            <br>
+            <br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Other Information</legend>
+        <textarea name="c" id="c" cols="30" rows="10" placeholder="Comments..."></textarea>
+        <br>
+        <br>
+        <label for="s">I Agree To The Terms Of Service</label>
+        <input type="checkbox" name="s" id="s">
+    </fieldset>
+    <input type="submit" name="s" id="s" value="Submit">
+</form>
+</body>
+</html>
